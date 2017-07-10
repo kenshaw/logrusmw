@@ -1,12 +1,12 @@
 package glogrus
 
 import (
+	"context"
 	"fmt"
 	"net/http"
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"golang.org/x/net/context"
 )
 
 // New allows you to configure a goji middleware that logs all requests and
