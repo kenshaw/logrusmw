@@ -1,4 +1,4 @@
-package glogrus
+package glogrus2
 
 import (
 	"context"
