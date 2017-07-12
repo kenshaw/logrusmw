@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 // New allows you to configure a goji middleware that logs all requests and
@@ -21,7 +21,7 @@ import (
 //		import(
 //			""goji.io"
 //			"github.com/goji/glogrus2"
-//			"github.com/Sirupsen/logrus"
+//			"github.com/sirupsen/logrus"
 //		)
 //
 //		func main() {
@@ -54,7 +54,7 @@ func New(l *logrus.Logger, name string) func(http.Handler) http.Handler {
 //		import(
 //			""goji.io"
 //			"github.com/goji/glogrus2"
-//			"github.com/Sirupsen/logrus"
+//			"github.com/sirupsen/logrus"
 //		)
 //
 //		func main() {

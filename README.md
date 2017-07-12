@@ -1,6 +1,6 @@
 # goji/glogrus [![GoDoc](https://godoc.org/github.com/goji/glogrus2?status.png)](https://godoc.org/github.com/goji/glogrus2)
 
-glogrus2 provides structured logging via logrus for Goji2. 
+glogrus2 provides structured logging via logrus for Goji2.
 
 ## Example
 
@@ -13,7 +13,7 @@ import(
 	"github.com/goji/glogrus2"
     "goji.io"
     "net/http"
-    "github.com/Sirupsen/logrus"
+    "github.com/sirupsen/logrus"
 )
 
 func main() {
@@ -37,7 +37,7 @@ import(
     "goji.io"
     "golang.org/x/net/context"
     "net/http"
-    "github.com/Sirupsen/logrus"
+    "github.com/sirupsen/logrus"
 )
 
 func main() {
